@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9408753256FC0E300BB0B6A /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9408752256FC0E300BB0B6A /* OnboardingModel.swift */; };
 		B96B27A1255817E0003E17E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27A0255817E0003E17E0 /* AppDelegate.swift */; };
 		B96B27A3255817E0003E17E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27A2255817E0003E17E0 /* SceneDelegate.swift */; };
-		B96B27A5255817E0003E17E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27A4255817E0003E17E0 /* ViewController.swift */; };
-		B96B27A8255817E0003E17E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96B27A6255817E0003E17E0 /* Main.storyboard */; };
+		B96B27A5255817E0003E17E0 /* AutorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27A4255817E0003E17E0 /* AutorizationViewController.swift */; };
+		B96B27A8255817E0003E17E0 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96B27A6255817E0003E17E0 /* Onboarding.storyboard */; };
 		B96B27AA255817E8003E17E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96B27A9255817E8003E17E0 /* Assets.xcassets */; };
 		B96B27AD255817E8003E17E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96B27AB255817E8003E17E0 /* LaunchScreen.storyboard */; };
 		B96B27B525581806003E17E0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27B425581806003E17E0 /* Extension.swift */; };
@@ -19,17 +20,23 @@
 		B96B27BE255946A6003E17E0 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27BD255946A6003E17E0 /* MainButton.swift */; };
 		B96B27C1255947D9003E17E0 /* ButtonWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27C0255947D9003E17E0 /* ButtonWithIcon.swift */; };
 		B96B27C325594AC5003E17E0 /* AutorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27C225594AC5003E17E0 /* AutorizationViewModel.swift */; };
-		B96B27C725594BE0003E17E0 /* AutorizationViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B27C625594BE0003E17E0 /* AutorizationViewModelType.swift */; };
 		B96B27CC25595384003E17E0 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B96B27CA25595384003E17E0 /* RobotoSlab-Light.ttf */; };
 		B96B27CD25595384003E17E0 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B96B27CB25595384003E17E0 /* RobotoSlab-Regular.ttf */; };
+		B9DD5CF02570065600280325 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD5CEF2570065600280325 /* Dynamic.swift */; };
+		B9DD5CF2257006B900280325 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD5CF1257006B900280325 /* OnboardingViewModel.swift */; };
+		B9DD5CF4257007C100280325 /* SlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DD5CF3257007C100280325 /* SlideView.xib */; };
+		B9DD5CF62570096C00280325 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD5CF52570096C00280325 /* SlideView.swift */; };
+		B9DD5CF825700D4600280325 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD5CF725700D4600280325 /* OnboardingViewController.swift */; };
+		B9DD5CFB2571194600280325 /* ButtonStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD5CFA2571194600280325 /* ButtonStroke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9408752256FC0E300BB0B6A /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		B96B279D255817E0003E17E0 /* NotAlone v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotAlone v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96B27A0255817E0003E17E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B96B27A2255817E0003E17E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B96B27A4255817E0003E17E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B96B27A7255817E0003E17E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B96B27A4255817E0003E17E0 /* AutorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationViewController.swift; sourceTree = "<group>"; };
+		B96B27A7255817E0003E17E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Onboarding.storyboard; sourceTree = "<group>"; };
 		B96B27A9255817E8003E17E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96B27AC255817E8003E17E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96B27AE255817E8003E17E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,9 +46,14 @@
 		B96B27BD255946A6003E17E0 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		B96B27C0255947D9003E17E0 /* ButtonWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithIcon.swift; sourceTree = "<group>"; };
 		B96B27C225594AC5003E17E0 /* AutorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationViewModel.swift; sourceTree = "<group>"; };
-		B96B27C625594BE0003E17E0 /* AutorizationViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationViewModelType.swift; sourceTree = "<group>"; };
 		B96B27CA25595384003E17E0 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
 		B96B27CB25595384003E17E0 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		B9DD5CEF2570065600280325 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		B9DD5CF1257006B900280325 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		B9DD5CF3257007C100280325 /* SlideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideView.xib; sourceTree = "<group>"; };
+		B9DD5CF52570096C00280325 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		B9DD5CF725700D4600280325 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B9DD5CFA2571194600280325 /* ButtonStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStroke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +88,8 @@
 			children = (
 				B96B27A0255817E0003E17E0 /* AppDelegate.swift */,
 				B96B27A2255817E0003E17E0 /* SceneDelegate.swift */,
-				B96B27F22559748B003E17E0 /* Autorization */,
+				B9DD5CEF2570065600280325 /* Dynamic.swift */,
+				B96B27F22559748B003E17E0 /* Onboarding */,
 				B96B27F3255974A3003E17E0 /* Style */,
 				B96B27B425581806003E17E0 /* Extension.swift */,
 				B96B27C925595342003E17E0 /* Fonts */,
@@ -100,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				B96B27BD255946A6003E17E0 /* MainButton.swift */,
+				B9DD5CFA2571194600280325 /* ButtonStroke.swift */,
 				B96B27C0255947D9003E17E0 /* ButtonWithIcon.swift */,
 			);
 			path = "Button Class";
@@ -109,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				B96B27C225594AC5003E17E0 /* AutorizationViewModel.swift */,
+				B9408752256FC0E300BB0B6A /* OnboardingModel.swift */,
+				B9DD5CF1257006B900280325 /* OnboardingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -116,17 +132,10 @@
 		B96B27C525594ADC003E17E0 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				B96B27A4255817E0003E17E0 /* ViewController.swift */,
+				B96B27A4255817E0003E17E0 /* AutorizationViewController.swift */,
+				B9DD5CF725700D4600280325 /* OnboardingViewController.swift */,
 			);
 			path = VC;
-			sourceTree = "<group>";
-		};
-		B96B27C825594C02003E17E0 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				B96B27C625594BE0003E17E0 /* AutorizationViewModelType.swift */,
-			);
-			path = Protocol;
 			sourceTree = "<group>";
 		};
 		B96B27C925595342003E17E0 /* Fonts */ = {
@@ -138,15 +147,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		B96B27F22559748B003E17E0 /* Autorization */ = {
+		B96B27F22559748B003E17E0 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				B9DD5CF92570328400280325 /* SlideView */,
 				B96B27C425594ACB003E17E0 /* ViewModel */,
-				B96B27C825594C02003E17E0 /* Protocol */,
 				B96B27C525594ADC003E17E0 /* VC */,
-				B96B27A6255817E0003E17E0 /* Main.storyboard */,
+				B96B27A6255817E0003E17E0 /* Onboarding.storyboard */,
 			);
-			path = Autorization;
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		B96B27F3255974A3003E17E0 /* Style */ = {
@@ -156,6 +165,15 @@
 				B96B27BA255945CC003E17E0 /* Text Clas */,
 			);
 			path = Style;
+			sourceTree = "<group>";
+		};
+		B9DD5CF92570328400280325 /* SlideView */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD5CF3257007C100280325 /* SlideView.xib */,
+				B9DD5CF52570096C00280325 /* SlideView.swift */,
+			);
+			path = SlideView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,11 +234,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DD5CF4257007C100280325 /* SlideView.xib in Resources */,
 				B96B27CC25595384003E17E0 /* RobotoSlab-Light.ttf in Resources */,
 				B96B27CD25595384003E17E0 /* RobotoSlab-Regular.ttf in Resources */,
 				B96B27AD255817E8003E17E0 /* LaunchScreen.storyboard in Resources */,
 				B96B27AA255817E8003E17E0 /* Assets.xcassets in Resources */,
-				B96B27A8255817E0003E17E0 /* Main.storyboard in Resources */,
+				B96B27A8255817E0003E17E0 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,14 +250,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96B27C725594BE0003E17E0 /* AutorizationViewModelType.swift in Sources */,
 				B96B27C1255947D9003E17E0 /* ButtonWithIcon.swift in Sources */,
 				B96B27C325594AC5003E17E0 /* AutorizationViewModel.swift in Sources */,
-				B96B27A5255817E0003E17E0 /* ViewController.swift in Sources */,
+				B9408753256FC0E300BB0B6A /* OnboardingModel.swift in Sources */,
+				B96B27A5255817E0003E17E0 /* AutorizationViewController.swift in Sources */,
 				B96B27BC2559466A003E17E0 /* TexType.swift in Sources */,
+				B9DD5CF2257006B900280325 /* OnboardingViewModel.swift in Sources */,
+				B9DD5CFB2571194600280325 /* ButtonStroke.swift in Sources */,
+				B9DD5CF825700D4600280325 /* OnboardingViewController.swift in Sources */,
 				B96B27BE255946A6003E17E0 /* MainButton.swift in Sources */,
+				B9DD5CF62570096C00280325 /* SlideView.swift in Sources */,
 				B96B27A1255817E0003E17E0 /* AppDelegate.swift in Sources */,
 				B96B27B9255945B2003E17E0 /* TextQuote.swift in Sources */,
+				B9DD5CF02570065600280325 /* Dynamic.swift in Sources */,
 				B96B27A3255817E0003E17E0 /* SceneDelegate.swift in Sources */,
 				B96B27B525581806003E17E0 /* Extension.swift in Sources */,
 			);
@@ -247,12 +271,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B96B27A6255817E0003E17E0 /* Main.storyboard */ = {
+		B96B27A6255817E0003E17E0 /* Onboarding.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B96B27A7255817E0003E17E0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Onboarding.storyboard;
 			sourceTree = "<group>";
 		};
 		B96B27AB255817E8003E17E0 /* LaunchScreen.storyboard */ = {
@@ -394,7 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "max.NotAlone-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,7 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "max.NotAlone-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
