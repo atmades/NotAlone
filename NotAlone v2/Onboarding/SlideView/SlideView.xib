@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RobotoSlab-Regular.ttf">
+            <string>RobotoSlab-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SlideView" customModule="NotAlone_v2" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Nut-iB-wG0" id="OHD-Cd-EIk"/>
+                <outlet property="subTitleLabel" destination="oR5-ku-Ofc" id="SqG-gT-ZZL"/>
+                <outlet property="titleLabel" destination="UrO-RG-rac" id="0Sg-rB-qng"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nut-iB-wG0">
+                    <rect key="frame" x="40" y="16" width="334" height="334"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Nut-iB-wG0" secondAttribute="height" multiplier="1:1" id="KAg-J4-0xZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrO-RG-rac">
+                    <rect key="frame" x="20" y="374" width="374" height="32"/>
+                    <fontDescription key="fontDescription" name="RobotoSlab-Regular" family="Roboto Slab" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oR5-ku-Ofc" customClass="TexType" customModule="NotAlone_v2" customModuleProvider="target">
+                    <rect key="frame" x="20" y="422" width="374" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="UrO-RG-rac" secondAttribute="trailing" constant="20" id="3OW-r4-iu8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oR5-ku-Ofc" secondAttribute="trailing" constant="20" id="Gbc-N5-6dE"/>
+                <constraint firstItem="Nut-iB-wG0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="KmU-hx-Mxv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Nut-iB-wG0" secondAttribute="trailing" constant="40" id="Q23-V1-yrj"/>
+                <constraint firstItem="UrO-RG-rac" firstAttribute="top" secondItem="Nut-iB-wG0" secondAttribute="bottom" constant="24" id="Zw2-ds-qrb"/>
+                <constraint firstItem="Nut-iB-wG0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="fuU-h5-7RN"/>
+                <constraint firstItem="UrO-RG-rac" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="gIR-7H-tff"/>
+                <constraint firstItem="oR5-ku-Ofc" firstAttribute="top" secondItem="UrO-RG-rac" secondAttribute="bottom" constant="16" id="lUR-0d-ijp"/>
+                <constraint firstItem="oR5-ku-Ofc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="yvx-Sr-tNa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="130.43478260869566" y="35.491071428571423"/>
+        </view>
+    </objects>
+</document>

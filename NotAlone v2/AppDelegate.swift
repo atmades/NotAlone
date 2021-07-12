@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import GoogleMaps
+
+private let apiKey = "AIzaSyDilvOe8IudvVuqg9E30rK0tSqnsv5Bw4Q"
+// GMSServices.provideAPIKey(apiKey)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +19,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey(apiKey)
+        
+//        Новое
+//        UINavigationBar.appearance().barTintColor = UIColor.red
+//        
+//        // Set Navigation bar Title colour
+//        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+//        
+//        // Set navigation bar ItemButton tint colour
+//        UIBarButtonItem.appearance().tintColor = UIColor.yellow
+//        
+//        // Set Navigation bar background image
+//        let navBgImage:UIImage = UIImage(named: "avatarDef")!
+//        UINavigationBar.appearance().setBackgroundImage(navBgImage, for: .default)
+//        
+//        //Set navigation bar Back button tint colour
+//        UINavigationBar.appearance().tintColor = UIColor.white
+        
+//     ---
+        
+//        Еще один вариант с ларге тайтле
+        
+        
+        
+        
+        
         return true
     }
 

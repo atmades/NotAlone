@@ -8,28 +8,31 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class MainButton: UIButton {
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+    override func layoutSubviews() {
+        super.layoutSubviews()
     }
     
-    init() {
-        super.init(frame: .zero)
-    }
-    
-    required init?(coder: NSCoder) {
-       super.init(coder: coder)
-    }
-    
-    func setup(title: String){
-        backgroundColor = UIColor.primary
+    func setupMainColor() {
+        backgroundColor = UIColor(named: String.colors.primary.rawValue)
         layer.cornerRadius = 6
-        
-        setTitle(title, for: .normal)
         setTitleColor(.white, for: .normal)
         titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .regular)
         letterSpace = 0
     }
+    
+    func setupMainWhite() {
+        let primaryColor = UIColor(named: String.colors.primary.rawValue)
+        backgroundColor = UIColor.white
+        layer.cornerRadius = 0
+        layer.borderWidth = 1
+        layer.borderColor = UIColor(named: String.colors.divider.rawValue)?.cgColor
+        
+        setTitleColor(primaryColor, for: .normal)
+        titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .regular)
+        letterSpace = 0
+        
+    }  
 }
