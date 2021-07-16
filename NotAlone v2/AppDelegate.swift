@@ -9,7 +9,7 @@
 import UIKit
 import GoogleMaps
 
-private let apiKey = "AIzaSyDilvOe8IudvVuqg9E30rK0tSqnsv5Bw4Q"
+private let apiKey = ""
 // GMSServices.provideAPIKey(apiKey)
 
 @UIApplicationMain
